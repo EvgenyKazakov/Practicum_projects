@@ -36,3 +36,11 @@ SVC(degree=2, kernel='linear', probability=True, random_state=42)
 SVC(degree=1, probability=True, random_state=42)
 Метрика лучшей модели по кросс-валидации: 0.9011
 Метрика ROC-AUC на тестовой выборке: 0.9201
+
+Изменения версии 4:
+- Изменен гиперпараметр модели SVC - 'models__degree': range(1, 2)
+
+Лучшая модель версии 4:
+LogisticRegression(C=1, l1_ratio=0.5, penalty='elasticnet', random_state=42, solver='saga')
+Метрика лучшей модели по кросс-валидации: 0.8993
+Метрика ROC-AUC на тестовой выборке: 0.925
